@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<configuration>
+	<section name="project">
+		<param name="project name" value="MEDI6994"/>
+		<param name="analyst" value="Vahid gol"/>
+		<param name="project directory" value="sdfsd"/>
+		<param name="project code" value=""/>
+		<param name="DLIMS project" value=""/>
+	</section>
+	<section name="XIC">
+		<param name="based on" value="monoisotopic peak"/>
+		<param name="time window" value="0.0"/>
+		<param name="apply smooth" value="True"/>
+		<param name="apply type" value="Move average"/>
+		<param name="smooth cycles" value="0"/>
+		<param name="smooth window" value="0.0"/>
+	</section>
+	<section name="Full MS">
+		<param name="error tolerance" value=""/>
+		<param name="PYQMSppm" value="0"/>
+	</section>
+	<section name="MSMS">
+		<param name="error tolerance" value=""/>
+		<param name="error unit" value="ppm"/>
+		<param name="assign to" value="closest"/>
+		<param name="a-ion" value="False"/>
+		<param name="b-ion" value="False"/>
+		<param name="c-ion" value="False"/>
+		<param name="x-ion" value="False"/>
+		<param name="y-ion" value="False"/>
+		<param name="z-ion" value="False"/>
+		<param name="fragment losses" value="False"/>
+	</section>
+</configuration>
